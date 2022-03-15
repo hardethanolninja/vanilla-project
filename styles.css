@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  overflow-x: hidden;
+}
+
+.dashboard_header {
+  display: flex;
+  width: 100vw;
+  height: 5vh;
+  border: 1px solid black;
+}
+
+.dashboard_main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  border: 1px solid black;
+}
+
+.dashboard_footer {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  border: 1px solid black;
+}
+
+.dashboard_weather_main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  align-content: flex-start;
+  justify-content: space-around;
+  background-color: blue;
+}
+
+.dashboard_weather_box {
+  display: flex;
+  min-width: 200px;
+  max-width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 8px;
+}
+
+.dashboard_news_main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 100%;
+}
+.dashboard_news_world {
+  flex-grow: 1;
+  min-width: 400px;
+  background-color: red;
+}
+.dashboard_news_local {
+  flex-grow: 1;
+  min-width: 400px;
+  background-color: green;
+}
+
+.dashboard_todo_main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 100%;
+}
+.dashboard_todo_daily {
+  flex-grow: 1;
+  min-width: 400px;
+  width: 50vw;
+  background-color: pink;
+}
+.dashboard_todo_list {
+  flex-grow: 1;
+  min-width: 400px;
+  width: 50vw;
+  background-color: purple;
+}
